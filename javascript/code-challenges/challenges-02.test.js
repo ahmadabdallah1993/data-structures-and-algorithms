@@ -135,10 +135,13 @@ For example: evenOdd([1,2,3]) returns ['odd','even','odd'].
 const evenOdd = (arr) => {
   let arr2 = [];
   arr.map( (val, i) => {
+    let b = '';
     if(val % 2 === 0) {
       arr2[i] = 'even';
-    } else if (val % 2 === 1) {
+    } else if (val % 2 !== 0) {
       arr2[i] = 'odd';
+    } else {
+      arr2[i] = b;
     }
   });
   return arr2;
