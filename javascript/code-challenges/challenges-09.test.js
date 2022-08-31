@@ -136,7 +136,7 @@ hasChildrenValues(characters, 'Sansa') will return false
 ------------------------------------------------------------------------------------------------ */
 
 const hasChildrenValues = (arr, character) => {
-  // Solution code here...
+  // Solution code here..
 
 };
 
@@ -159,7 +159,7 @@ Write a function named totalCharacters that takes in an array and returns the nu
 ------------------------------------------------------------------------------------------------ */
 
 const totalCharacters = (arr) => {
-  // Solution code here...
+  // Solution code here..
 };
 
 /* ------------------------------------------------------------------------------------------------
